@@ -15,11 +15,12 @@ function App() {
   ];
   return (
     <Text
-      title="Sorry, I am working bio link page, this may take a while"
-      subtitle="I hope the links you are looking for, down there might help you!"
+      title="Oopsie daisy! Looks like I'm tinkering with the bio link page. Hang tight, this might take a days!"
+      subtitle="Meanwhile, why not enjoy some delightful links down below? They might just tickle your funny bone!"
       links={array}
     />
   );
+  
 }
 
 export default App;
