@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import gsap from "gsap";
+
 export default function Text({ title, subtitle, links }) {
   return (
     <>
@@ -9,7 +12,7 @@ export default function Text({ title, subtitle, links }) {
           <h4 className="w-fit text-5xl sm:text-special font-body-4 font-grotesk  text-secondary-600">
             {subtitle}
           </h4>
-          <div>
+          <div className="link">
             {links.map((link, index) => (
               <p key={index}>
                 <a href={link[0]}>{link[1]}</a>

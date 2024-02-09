@@ -1,0 +1,22 @@
+body {
+    cursor: none;
+  }
+  
+  .cursor {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #89784c; /* Change color as needed */
+    pointer-events: none; /* Ensures the cursor doesn't interfere with clicks */
+    z-index: 999; /* Ensure the cursor stays on top */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a:hover
+  {
+    cursor: none;
+  }
+  
